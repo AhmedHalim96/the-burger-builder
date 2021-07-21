@@ -1,0 +1,20 @@
+.Order{
+    width:80%;
+    box-shadow: 0 2px 3p #cccccc;
+    border: 1px solid #eeeeee;
+    padding: 10px;
+    margin:10px auto;
+    box-sizing: border-box;
+
+}
+
+.ings{
+    flex-flow: column;
+    display: flex;
+}
+@media(min-width:500px){
+    .ings{
+        
+        flex-flow: row wrap ;
+    }
+}
